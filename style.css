@@ -1,0 +1,530 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+    width: 1366px;
+    margin: 0 auto;
+}
+
+.slider {
+    height: 800px;
+    background-image: url(img/slider-img.jpg);
+    padding-left: 98px;
+    padding-right: 98px;
+    position: relative;
+}
+
+.header {
+    padding-top: 63px;
+}
+
+.menu {
+    float: right;
+}
+
+.menu-list {
+    list-style-type: none;
+    float: left;
+}
+
+.menu-link1,
+.menu-link {
+    width: 490px;
+    height: 10px;
+    color: #8c8c8c;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 10px 13px;
+}
+
+.menu-link:hover {
+    color: #212121;
+    border-bottom: 3px solid #212121;
+}
+
+.slider-text {
+    margin-top: 283px;
+}
+
+.trend {
+    color: #43a047;
+    font-size: 18px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: left;
+    text-transform: uppercase;
+    clear: both;
+}
+
+.slider-h2 {
+    color: #212121;
+    font-size: 58px;
+    font-weight: 200;
+    text-transform: uppercase;
+    margin-top: 13px;
+    width: 455px;
+}
+
+.slider-cont {
+    color: #6c6c6c;
+    font-size: 14px;
+    font-weight: 300;
+    margin-top: 34px;
+    margin-bottom: 32px;
+    width: 458px;
+    line-height: 24px;
+}
+
+.botom {
+    color: #212121;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    box-shadow: 0 2px 5px 1px rgba(33, 33, 33, 0.35);
+    border-radius: 23px;
+    background-color: #ffffff;
+    width: 212px;
+    height: 45px;
+    line-height: 45px;
+    text-align: center;
+    display: inline-block;
+    text-decoration: none;
+    letter-spacing: 3.6px;
+}
+
+.botom:hover {
+    background-color: #d9dee1;
+}
+
+.botom:active {
+    background-color: lightgreen;
+}
+
+.navi {
+    position: absolute;
+    width: 1170px;
+    bottom: 19px;
+    text-align: center;
+}
+
+.circle {
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    background-color: #c7c7c7;
+    border-radius: 50%;
+    margin: 5px;
+}
+
+.circle-active {
+    width: 40px;
+    height: 40px;
+    background-color: #212121;
+    margin-bottom: 0;
+}
+
+.circle:hover {
+    background-color: #212121;
+}
+
+
+/* featuring */
+
+.featured {
+    height: 489px;
+    padding-top: 120px;
+    padding-left: 98px;
+    padding-right: 98px;
+}
+
+.new {
+    margin-top: 70 px;
+}
+
+.fn {
+    float: left;
+    display: inline;
+}
+
+.featured-h2 {
+    color: #212121;
+    font-size: 36px;
+    font-weight: 700;
+    border-bottom: 3px solid #212121;
+    width: 187px;
+    float: left;
+    padding: 0px 20px 15px 9px;
+}
+
+.new-h2 {
+    color: #6c6c6c;
+    font-size: 36px;
+    font-weight: 700;
+    border-bottom: 1px solid #6c6c6c;
+    width: 300px;
+    padding: 0px 22px 17px 11px;
+    font-family: Montserrat;
+}
+
+.explore {
+    text-decoration: none;
+    color: #212121;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 3.6px;
+    text-transform: uppercase;
+    float: right;
+    margin-top: 18px;
+    margin-right: 20px;
+}
+
+.block {
+    clear: both;
+}
+
+.product-1,
+.product {
+    width: 270px;
+    height: 270px;
+    float: left;
+    margin-top: 50px;
+}
+
+.product {
+    margin-left: 29px;
+}
+
+.product-1 {
+    outline: 1px solid #9c9c9c;
+}
+
+.down {
+    text-align: center;
+    padding-top: 62px;
+}
+
+.botom-smal {
+    color: #212121;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    box-shadow: 0 2px 5px 1px rgba(33, 33, 33, 0.35);
+    border-radius: 23px;
+    background-color: #ffffff;
+    width: 48px;
+    height: 45px;
+    line-height: 45px;
+    text-align: center;
+    display: inline-block;
+    text-decoration: none;
+    letter-spacing: 3.6px;
+}
+
+.botom-smal:hover {
+    background-color: #d9dee1;
+}
+
+.botom-smal:active {
+    background-color: lightgreen;
+}
+
+.botom-h3 {
+    font-size: 22px;
+    font-weight: 700;
+    color: #212121;
+    line-height: 29.88px;
+    margin: 10px 0 23px;
+}
+
+.botom-p {
+    font-size: 15px;
+    font-weight: 500;
+    color: #6c6c6c;
+    line-height: 21.91px;
+}
+
+
+/* exclusive*/
+
+.promo1,
+.promo2 {
+    height: 680px;
+    width: 680px;
+}
+
+.promo1 {
+    background-image: url(img/promo-img1.jpg);
+    float: left;
+}
+
+.promo2 {
+    background-image: url(img/promo-img.jpg);
+    overflow: hidden;
+}
+
+.exclusive {
+    color: #1e88e5;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1.8px;
+}
+
+.promo-h2 {
+    color: #212121;
+    font-size: 36px;
+    font-weight: 700;
+    margin-top: 18px;
+    margin-bottom: 24px;
+}
+
+.p-cont {
+    color: #6c6c6c;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24.04px;
+    width: 387px;
+    margin-bottom: 34px;
+}
+
+.promo-cont {
+    margin-left: 52px;
+    margin-top: 228px;
+}
+
+
+/* Trending*/
+
+.trend-cont {
+    height: 1048px;
+    margin-top: 119px;
+    margin-left: 98px;
+    margin-right: 98px;
+}
+
+.trending {
+    color: #212121;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.tp {
+    float: left;
+    margin-bottom: 64px;
+}
+
+.product3,
+.product2 {
+    height: 370px;
+    width: 370px;
+    float: left;
+    margin-bottom: 30px;
+}
+
+.product2 {
+    margin-left: 30px;
+}
+
+
+/*hot deal*/
+
+.slider2 {
+    height: 800px;
+    background-image: url(img/slider.jpg);
+    padding-left: 98px;
+    padding-right: 98px;
+    position: relative;
+}
+
+.trend2 {
+    color: #e53935;
+    font-size: 18px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: left;
+    text-transform: uppercase;
+    clear: both;
+}
+
+
+/* five block*/
+
+.five {
+    height: 690px;
+    padding-left: 98px;
+    padding-right: 98px;
+    margin-top: 120px;
+}
+
+.oneblock {
+    height: 570px;
+    width: 570px;
+    background-image: url(img/product-1-lg.jpg);
+    float: left;
+}
+
+.sm {
+    height: 270px;
+    width: 270px;
+    margin-bottom: 26px;
+    margin-left: 26px;
+}
+
+
+/*mobil*/
+
+.app {
+    height: 516px;
+    background-image: url(img/back-img.jpg);
+    padding-left: 98px;
+    padding-right: 98px;
+}
+
+.trend3 {
+    width: 128px;
+    height: 13px;
+    color: #6c6c6c;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 48px;
+    text-transform: uppercase;
+    padding-top: 125px;
+    margin-bottom: 22px;
+}
+
+.slider-cont2 {
+    height: 21px;
+    color: #6c6c6c;
+    font-size: 22px;
+    font-weight: 300;
+    line-height: 24px;
+    margin-top: 26px;
+    margin-bottom: 33px;
+    font-weight: 300px;
+}
+
+
+/*footer*/
+
+.footer {
+    height: 264px;
+    background-color: #f7f7f7;
+    padding-left: 98px;
+    padding-right: 98px;
+    padding-top: 120px;
+}
+
+.conta {
+    color: #6c6c6c;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1.8px;
+    padding-bottom: 24px;
+}
+
+.bridge {
+    width: 225px;
+    height: 102px;
+    color: #212121;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: left;
+}
+
+.subscr {
+    width: 363px;
+    height: 36px;
+    color: #212121;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 22px;
+    padding-bottom: 26px;
+}
+
+.one {
+    float: left;
+    margin-right: 80px;
+}
+
+.two {
+    float: left;
+    width: 442px;
+}
+
+.three {
+    width: 370px;
+    float: right;
+}
+
+.sales {
+    float: left;
+    margin-right: 103px;
+}
+
+.sales,
+.sales2 {
+    color: #212121;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 26px;
+    text-transform: uppercase;
+    letter-spacing: 0.7px;
+    list-style-type: none;
+}
+
+form {
+    position: relative;
+    width: 349px;
+}
+
+input {
+    width: 100%;
+    height: 48px;
+    padding-left: 19px;
+    border: 1px solid #d9dee1;
+}
+
+button {
+    position: absolute;
+    border: none;
+    top: 16px;
+    right: 14px;
+    cursor: pointer;
+    background-color: white;
+}
+
+.four {
+    clear: both;
+    text-align: center;
+    padding-top: 59px;
+}
+
+.copy,
+.terms {
+    height: 9px;
+    color: #6c6c6c;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 26px;
+    text-align: left;
+    text-transform: uppercase;
+    letter-spacing: 0.6px;
+}
+
+.copy {
+    float: left;
+}
+
+.terms {
+    float: right;
+}
